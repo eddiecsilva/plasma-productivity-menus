@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/*
+Actions=recodificar_alac
+
+[Desktop Action recodificar_alac]
+Name=Recodificar Áudio para ALAC (sem perdas)
+Icon=audio-x-generic
+Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/video-alac.sh %F
+X-KDE-Submenu="Edição de Vídeo"
