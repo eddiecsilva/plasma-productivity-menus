@@ -6,6 +6,7 @@ Actions=ExportFramesFocus;
 X-KDE-Priority=TopLevel
 X-KDE-StartupNotify=false
 
+# Este menu executa o script export-focus-frames.sh para extrair frames específicos de vídeo.
 [Desktop Action ExportFramesFocus]
 Name=Exportar frames (PNG / 2s / foco)
 Icon=video-x-generic

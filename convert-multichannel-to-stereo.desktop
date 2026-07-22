@@ -8,3 +8,5 @@ Actions=MixAudioTracks;
 Name=Unificar trilhas de áudio (FFmpeg)
 Icon=audio-volume-high
 Exec=konsole -e ~/.local/share/kio/servicemenus/convert-multichannel-to-stereo.sh %F
+
+# Este menu executa o script convert-multichannel-to-stereo.sh para unificar múltiplas trilhas de áudio em uma única pista lossless.

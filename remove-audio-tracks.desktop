@@ -9,3 +9,5 @@ Name=Remove All Audio Tracks (Video Intact)
 Icon=audio-volume-muted
 Exec=konsole -e ~/.local/share/kio/servicemenus/remove-audio-tracks.sh %F
 X-KDE-Submenu="Edição de Vídeo"
+
+# Este menu executa o script remove-audio-tracks.sh para remover todas as trilhas de áudio do vídeo, mantendo o vídeo intacto.

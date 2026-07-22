@@ -8,3 +8,5 @@ Name=Gerar Proxy de Vídeo Leve
 Exec=konsole -e ~/.local/share/kio/servicemenus/generate-proxy.sh %F
 Icon=video-x-generic
 X-KDE-Submenu=Edição de Vídeo
+
+# Este menu executa o script generate-proxy.sh para gerar um proxy de vídeo leve (1080p) para edição.

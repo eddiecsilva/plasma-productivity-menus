@@ -10,3 +10,5 @@ Name=Extrair Audio PCM 24
 Icon=video-x-generic
 Exec=konsole -e ~/.local/share/kio/servicemenus/extract-audio-pcm.sh %F
 X-KDE-Submenu=Edição de Vídeo
+
+# Este menu executa o script extract-audio-pcm.sh para extrair áudio em formato PCM 24 bits.
