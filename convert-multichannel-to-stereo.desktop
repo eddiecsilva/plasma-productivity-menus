@@ -5,8 +5,10 @@ MimeType=video/mp4;video/x-matroska;video/x-msvideo;video/quicktime;
 Actions=MixAudioTracks;
 
 [Desktop Action MixAudioTracks]
-Name=Unificar trilhas de áudio (FFmpeg)
+Name=Mix multiple audio tracks into a single lossless track
+Name[pt_BR]=Unificar trilhas de áudio (FFmpeg)
 Icon=audio-volume-high
 Exec=konsole -e ~/.local/share/kio/servicemenus/convert-multichannel-to-stereo.sh %F
 
+# This menu executes the convert-multichannel-to-stereo.sh script to mix multiple audio tracks into a single lossless track.
 # Este menu executa o script convert-multichannel-to-stereo.sh para unificar múltiplas trilhas de áudio em uma única pista lossless.

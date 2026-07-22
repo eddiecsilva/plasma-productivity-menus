@@ -6,9 +6,11 @@ X-KDE-Priority=TopLevel
 Icon=audio-x-generic
 
 [Desktop Action ExtrairAudioPCM]
-Name=Extrair Audio PCM 24
+Name=Extract Audio PCM 24
+Name[pt_BR]=Extrair Audio PCM 24
 Icon=video-x-generic
 Exec=konsole -e ~/.local/share/kio/servicemenus/extract-audio-pcm.sh %F
 X-KDE-Submenu=Edição de Vídeo
 
+# This menu executes the extract-audio-pcm.sh script to extract audio in PCM 24-bit format.
 # Este menu executa o script extract-audio-pcm.sh para extrair áudio em formato PCM 24 bits.
