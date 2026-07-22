@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/mp4;video/x-matroska;video/x-msvideo;video/webm;video/mpeg;
+Actions=ExportFramesFocus;
+X-KDE-Priority=TopLevel
+X-KDE-StartupNotify=false
+
+[Desktop Action ExportFramesFocus]
+Name=Exportar frames (PNG / 2s / foco)
+Icon=video-x-generic
+Exec=konsole -e ~/.local/share/kio/servicemenus/export-focus-frames.sh

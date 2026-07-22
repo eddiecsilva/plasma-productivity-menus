@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/*
+Actions=proxy
+[Desktop Action proxy]
+Name=Gerar Proxy de Vídeo Leve
+Exec=konsole -e ~/.local/share/kio/servicemenus/generate-proxy.sh %F
+Icon=video-x-generic
+X-KDE-Submenu=Edição de Vídeo

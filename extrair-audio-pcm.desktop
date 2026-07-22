@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+MimeType=video/*;
+Actions=ExtrairAudioPCM
+X-KDE-Priority=TopLevel
+Icon=audio-x-generic
+
+[Desktop Action ExtrairAudioPCM]
+Name=Extrair Audio PCM 24
+Icon=video-x-generic
+Exec=konsole -e ~/.local/share/kio/servicemenus/extract-audio-pcm.sh %F
+X-KDE-Submenu=Edição de Vídeo
