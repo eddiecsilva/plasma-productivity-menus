@@ -28,6 +28,15 @@ Aprendi sobre Service Menus assistindo este vídeo excelente:
 
 ## 📦 Instalação Rápida
 ```bash
-git clone https://github.com/SEU_USERNAME/plasma-productivity-menus
-cp *.desktop ~/.local/share/kio/servicemenus/
+ git clone https://github.com/SEU_USERNAME/plasma-productivity-menus
+ cp *.desktop ~/.local/share/kio/servicemenus/
  kbuildsycoca6 --noincremental
+```
+
+## 🛠️ Dependências
+Este projeto depende do `ffmpeg` para executar as ações de processamento de áudio e vídeo. Certifique-se de que o `ffmpeg` está instalado em seu sistema.
+
+## 📝 Notas
+Este projeto foi testado exclusivamente no **Debian Linux 13** com o **KDE Plasma 6.3**. Pode não funcionar corretamente em outras distribuições de Linux, devido a diferenças na configuração do ambiente e nos componentes do KDE Plasma.
+
+Se você encontrar problemas em outras distribuições, sinta-se à vontade para abrir uma issue no repositório.
