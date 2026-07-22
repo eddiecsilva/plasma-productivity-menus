@@ -30,6 +30,7 @@ Aprendi sobre Service Menus assistindo este vídeo excelente:
 ```bash
  git clone https://github.com/SEU_USERNAME/plasma-productivity-menus
  cp *.desktop ~/.local/share/kio/servicemenus/
+ chmod +x *.sh
  kbuildsycoca6 --noincremental
 ```
 
