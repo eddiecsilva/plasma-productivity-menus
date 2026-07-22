@@ -8,54 +8,44 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [v1.1.0] - 2026-07-22
 
-### Changed
-- Renamed all `.desktop` files to use kebab-case naming convention for consistency.
-- Updated all `.desktop` files to include English comments before Portuguese comments for clarity.
-- Standardized script names to kebab-case for consistency and improved readability.
-- Updated all `.desktop` files to use `Name[<idioma>]` for multilingual menu names, ensuring proper display in Portuguese Brazilian environments.
+### Resumo das mudanças
+- Renomeou todos os arquivos `.desktop` para usar convenção de nomenclatura kebab-case para consistência.
+- Atualizou todos os arquivos `.desktop` para incluir comentários em inglês antes de comentários em português para clareza.
+- Padrãoizou nomes de scripts para kebab-case para consistência e melhor legibilidade.
+- Atualizou todos os arquivos `.desktop` para usar `Name[<idioma>]` para nomes de menu multilíngues, garantindo exibição adequada em ambientes brasileiros de português.
 
-### Fixed
-- Corrected translations in `.desktop` files to ensure accurate Portuguese Brazilian messages.
-- Fixed incorrect `Name[pt]` entries in `.desktop` files to use `Name[pt_BR]`.
+### Correções
+- Corrigiu traduções em arquivos `.desktop` para garantir mensagens precisas em português brasileiro.
+- Corrigiu entradas incorretas `Name[pt]` em arquivos `.desktop` para usar `Name[pt_BR]`.
 
 ## [Unreleased]
 
 ## [v1.0.0] - 2026-07-22
 
-### Added
-- Initial release with core functionalities for video editing and project management.
-- Added `README.md` and `README.pt.md` for bilingual documentation.
-- Added `convert-multichannel-to-stereo.desktop`, `remove-audio-tracks.desktop`, `generate-video-proxy.desktop`, `extract-audio-pcm.desktop`, `create-project-structure.desktop`, and `export-focus-frames.desktop` for media processing tasks.
+### Resumo das mudanças
+- Lançamento inicial com funcionalidades principais para edição de vídeo e gerenciamento de projetos.
+- Adicionou `README.md` e `README.pt.md` para documentação bilingue.
+- Adicionou `convert-multichannel-to-stereo.desktop`, `remove-audio-tracks.desktop`, `generate-video-proxy.desktop`, `extract-audio-pcm.desktop`, `create-project-structure.desktop`, e `export-focus-frames.desktop` para tarefas de processamento de mídia.
 
-### Changed
-- Updated all `.desktop` files to use `Name[<idioma>]` for multilingual menu names.
-- Standardized all `.sh` scripts to use `konsole` for consistent execution.
-
-### Fixed
-- Resolved issues with incorrect file paths and missing dependencies.
+### Correções
+- Resolvidos problemas com caminhos de arquivos incorretos e dependências ausentes.
 
 ## [v0.1.0] - 2026-07-20
 
-### Added
-- Initial setup of the project with basic `.desktop` and `.sh` scripts.
-- Added `README.md` with initial project description.
+### Resumo das mudanças
+- Configuração inicial do projeto com arquivos `.desktop` e `.sh` básicos.
+- Adicionou `README.md` com descrição inicial do projeto.
 
-### Changed
-- Refactored project structure to improve organization and readability.
-
-### Fixed
-- Resolved issues with incorrect `Exec` paths in `.desktop` files.
+### Correções
+- Refatorou estrutura do projeto para melhorar organização e legibilidade.
 
 ## [v0.0.1] - 2026-07-19
 
-### Added
-- Initial commit with project structure and basic scripts.
+### Resumo das mudanças
+- Comit inicial com estrutura do projeto e scripts básicos.
 
-### Changed
-- Initial setup of the repository with `.gitignore` and `LICENSE`.
-
-### Fixed
-- Resolved initial issues with project setup.
+### Correções
+- Configuração inicial do repositório com `.gitignore` e `LICENSE`.
 
 
 
