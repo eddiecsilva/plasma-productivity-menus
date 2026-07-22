@@ -5,7 +5,7 @@ MimeType=video/*
 Actions=remover_audio
 
 [Desktop Action remover_audio]
-Name=Remover Todas as Trilhas de Áudio (Vídeo Intacto)
+Name=Remove All Audio Tracks (Video Intact)
 Icon=audio-volume-muted
-Exec=konsole -e ~/.local/share/kio/servicemenus/remover-trilhas-de-audio %F
+Exec=konsole -e ~/.local/share/kio/servicemenus/remove-audio-tracks.sh %F
 X-KDE-Submenu="Edição de Vídeo"

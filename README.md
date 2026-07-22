@@ -8,17 +8,16 @@ Criados para minha rotina profissional em **criação de conteúdo e marketing d
 - Áudio: FLAC, frames extraction
 - **Economize horas** em batch processing!
 
+## 📂 Arquivos
 
-| Arquivo                         | Tipo     | Função Principal                    |
-| ------------------------------- | -------- | ----------------------------------- |
-| export-focus-frames.desktop     | .desktop | Extrair frames específicos de vídeo |
-| convert-audio-to-pcm.desktop    | .desktop | Converter áudio para PCM raw        |
-| encode-audio-alac.desktop       | .desktop | Conversão batch FLAC (ALAC/Outros)  |
-| video-proxy-lite.desktop        | .desktop | Criar proxy vídeo otimizado (1080p) |
-| convert-multichannel-to-stereo.desktop | .desktop | Multi-áudio → single track lossless |
-| convert-flac-to-alac.sh         | .sh      | Script auxiliar FLAC → ALAC         |
-| convert-multichannel-to-stereo.sh | .sh    | Script multi-áudio → single         |
-| convert-pcm-s24le.sh            | .sh      | PCM S24LE converter/otimização      |
+- **[export-focus-frames.desktop](export-focus-frames.desktop)** - Extrair frames específicos de vídeo. Use quando precisar de frames úteis para análise ou edição.
+- **[convert-audio-to-pcm.desktop](convert-audio-to-pcm.desktop)** - Converter áudio para PCM raw. Ideal para processamento de áudio em sistemas que exigem formato de áudio puro.
+- **[encode-audio-alac.desktop](encode-audio-alac.desktop)** - Conversão batch FLAC (ALAC/Outros). Útil para converter arquivos de áudio FLAC para ALAC ou outros formatos.
+- **[video-proxy-lite.desktop](video-proxy-lite.desktop)** - Criar proxy vídeo otimizado (1080p). Use para criar versões de vídeo mais leves para edição.
+- **[convert-multichannel-to-stereo.desktop](convert-multichannel-to-stereo.desktop)** - Multi-áudio → single track lossless. Perfeito para combinar múltiplas pistas de áudio em uma única pista.
+- **[convert-flac-to-alac.sh](convert-flac-to-alac.sh)** - Script auxiliar FLAC → ALAC. Use para automatizar a conversão de arquivos FLAC para ALAC.
+- **[convert-multichannel-to-stereo.sh](convert-multichannel-to-stereo.sh)** - Script multi-áudio → single. Ideal para processar múltiplas pistas de áudio em um único arquivo.
+- **[convert-pcm-s24le.sh](convert-pcm-s24le.sh)** - PCM S24LE converter/otimização. Use para otimizar arquivos de áudio em formato PCM S24LE.
 
 ## 🎥 Inspiração
 Aprendi sobre Service Menus assistindo este vídeo excelente:
@@ -31,4 +30,4 @@ Aprendi sobre Service Menus assistindo este vídeo excelente:
 ```bash
 git clone https://github.com/SEU_USERNAME/plasma-productivity-menus
 cp *.desktop ~/.local/share/kio/servicemenus/
-kbuildsycoca6 --noincremental
+ kbuildsycoca6 --noincremental
