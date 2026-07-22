@@ -35,8 +35,10 @@ I learned about Service Menus by watching this excellent video:
 
 ## 🛠️ Dependencies
 This project depends on `ffmpeg` to execute audio and video processing actions. Make sure `ffmpeg` is installed on your system.
+## 📝 Notas
 
-## 📝 Notes
-This project was tested exclusively on **Debian Linux 13** with **KDE Plasma 6.3**. It may not work correctly on other Linux distributions due to differences in environment configuration and KDE Plasma components.
+Este projeto foi testado exclusivamente no **Debian Linux 13** com o **KDE Plasma 6.3**. Pode não funcionar corretamente em outras distribuições de Linux, devido a diferenças na configuração do ambiente e nos componentes do KDE Plasma.
 
-If you encounter issues on other distributions, feel free to open an issue in the repository.
+> **Aviso:** As traduções são automáticas e podem conter erros.
+
+Se você encontrar problemas em outras distribuições, sinta-se à vontade para abrir uma issue no repositório.
