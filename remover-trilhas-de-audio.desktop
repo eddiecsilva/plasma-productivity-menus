@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/*
+Actions=remover_audio
+
+[Desktop Action remover_audio]
+Name=Remover Todas as Trilhas de Áudio (Vídeo Intacto)
+Icon=audio-volume-muted
+Exec=konsole -e ~/.local/share/kio/servicemenus/remover-trilhas-de-audio %F
+X-KDE-Submenu="Edição de Vídeo"

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/mp4;video/x-matroska;video/x-msvideo;video/quicktime;
+Actions=MixAudioTracks;
+
+[Desktop Action MixAudioTracks]
+Name=Unificar trilhas de áudio (FFmpeg)
+Icon=audio-volume-high
+Exec=konsole -e ~/.local/share/kio/servicemenus/convert-multichannel-to-stereo.sh %F
