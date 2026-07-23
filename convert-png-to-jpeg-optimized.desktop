@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/png;
+Actions=ConvertToJPEG;
+
+[Desktop Action ConvertToJPEG]
+Name=Convert PNG to Optimized JPEG
+Name[pt_BR]=Converter PNG em JPEG Otimizado
+Icon=photo
+Exec=konsole -e ~/.local/share/kio/servicemenus/convert-png-to-jpeg-optimized.sh %F

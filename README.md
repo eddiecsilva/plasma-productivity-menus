@@ -18,6 +18,8 @@ Created for my professional routine in **content creation and digital marketing*
 - **[convert-flac-to-alac.sh](convert-flac-to-alac.sh)** - Auxiliary script FLAC → ALAC. Use to automate the conversion of FLAC files to ALAC.
 - **[convert-multichannel-to-stereo.sh](convert-multichannel-to-stereo.sh)** - Multi-audio → single script. Ideal for processing multiple audio tracks into a single file.
 - **[convert-pcm-s24le.sh](convert-pcm-s24le.sh)** - PCM S24LE converter/optimization. Use to optimize PCM S24LE audio files.
+- **[convert-png-to-jpeg-optimized.sh](convert-png-to-jpeg-optimized.sh)** - Convert PNG images to optimized JPEGs. Ideal for creating smaller, web-friendly images from PNG files.
+
 
 ## 🎥 Inspiration
 I learned about Service Menus by watching this excellent video:
