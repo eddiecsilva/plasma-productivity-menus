@@ -1,5 +1,9 @@
 # Anotações e recados
 
+# v1.2.0 - 2026-07-25
+## Resumo das mudanças
+- Adicionados scripts de processamento de mídia: `convert-multichannel-to-stereo.desktop`, `remove-audio-tracks.desktop`, `generate-video-proxy.desktop`, `extract-audio-pcm.desktop` e `export-focus-frames.desktop`.
+
 # v1.1.0 - 2026-07-22
 ## Resumo das mudanças
 - Renomeado todos os arquivos `.desktop` para usar convenção de nomeação kebab-case para consistência.
@@ -11,7 +15,12 @@
 ## Resumo das mudanças
 - Lançamento inicial com funcionalidades principais para edição de vídeo e gerenciamento de projetos.
 - Adicionados `README.md` e `README.pt.md` para documentação bilingue.
-- Adicionados `convert-multichannel-to-stereo.desktop`, `remove-audio-tracks.desktop`, `generate-video-proxy.desktop`, `extract-audio-pcm.desktop`, `create-project-structure.desktop` e `export-focus-frames.desktop` para tarefas de processamento de mídia.
+
+
+### v1.1.0 - 2026-07-25
+## Resumo das mudanças
+- Adicionado **`create-project-structure.desktop`**: Cria uma estrutura básica de projeto (README, .gitignore) para acelerar a inicialização de novos projetos.
+- Atualizado **`README.md`** e **`README.pt.md`** com documentação da nova funcionalidade.
 
 # v0.1.0 - 2026-07-20
 ## Resumo das mudanças

@@ -19,6 +19,7 @@ Criado para minha rotina profissional em **criação de conteúdo e marketing di
 - **[convert-multichannel-to-stereo.sh](convert-multichannel-to-stereo.sh)** - Script multi-áudio → trilha única. Ideal para processar múltiplas trilhas de áudio em um único arquivo.
 - **[convert-pcm-s24le.sh](convert-pcm-s24le.sh)** - Conversor/otimização de PCM S24LE. Use para otimizar arquivos de áudio PCM S24LE.
 - **[convert-png-to-jpeg-optimized.sh](convert-png-to-jpeg-optimized.sh)** - Converte imagens PNG em JPEGs otimizados. Ideal para criar imagens menores e mais adequadas para a web a partir de arquivos PNG.
+- **[create-project-structure.desktop](create-project-structure.desktop)** - Cria uma estrutura básica de projeto com arquivos padrão (README, .gitignore, etc.). Ideal para acelerar a inicialização de novos projetos.
 
 
 ## 🎥 Inspiração
