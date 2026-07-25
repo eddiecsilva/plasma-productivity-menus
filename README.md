@@ -31,9 +31,11 @@ I learned about Service Menus by watching this excellent video:
 
 ## 📦 Quick Installation
 ```bash
- git clone https://github.com/SEU_USERNAME/plasma-productivity-menus
- cp *.desktop ~/.local/share/kio/servicemenus/
- chmod +x *.sh
+ git clone https://github.com/eddiecsilva/plasma-productivity-menus
+ cd plasma-productivity-menus
+ cp * ~/.local/share/kio/servicemenus/
+ cd ~/.local/share/kio/servicemenus/
+ chmod +x *
  kbuildsycoca6 --noincremental
 ```
 
