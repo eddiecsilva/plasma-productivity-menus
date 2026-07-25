@@ -1,17 +1,22 @@
 # Changelog
 
+# v1.2.0 - 2026-07-25
+## Summary of Changes
+- Added **`create-project-structure.desktop`**: Creates a basic project structure (README, .gitignore) to speed up new project setup.
+- Updated `README.md` and `README.pt.md` with documentation for the new feature.
+
 # v1.1.0 - 2026-07-22
 ## Summary of Changes
-- Renamed all `.desktop` files to use kebab-case naming convention for consistency.
+- Renamed all `.desktop` files to kebab-case naming convention for consistency.
 - Updated all `.desktop` files to include English comments before Portuguese comments for clarity.
 - Standardized script names to kebab-case for consistency and improved readability.
-- Updated all `.desktop` files to use `Name[<idioma>]` for multilingual menu names, ensuring proper display in Portuguese Brazilian environments.
+- Updated all `.desktop` files to use `Name[<idioma>]` for multilingual menu names, ensuring proper display in Brazilian Portuguese environments.
 
 # v1.0.0 - 2026-07-22
 ## Summary of Changes
 - Initial release with core functionalities for video editing and project management.
 - Added `README.md` and `README.pt.md` for bilingual documentation.
-- Added `convert-multichannel-to-stereo.desktop`, `remove-audio-tracks.desktop`, `generate-video-proxy.desktop`, `extract-audio-pcm.desktop`, `create-project-structure.desktop`, and `export-focus-frames.desktop` for media processing tasks.
+- Added media processing scripts: `convert-multichannel-to-stereo.desktop`, `remove-audio-tracks.desktop`, `generate-video-proxy.desktop`, `extract-audio-pcm.desktop`, and `export-focus-frames.desktop`.
 
 # v0.1.0 - 2026-07-20
 ## Summary of Changes
