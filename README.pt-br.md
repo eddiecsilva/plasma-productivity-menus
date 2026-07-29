@@ -44,6 +44,8 @@ Este projeto depende do `ffmpeg` para executar ações de processamento de áudi
 
 ## 📝 Observações
 
+**AVISO:** Este projeto foi desenvolvido utilizando ferramentas de código assistidas por IA, como **Opencode**, para auxiliar no desenvolvimento. Trata-se de um projeto pessoal, disponibilizado publicamente sem intenção de uso comercial.
+
 Este projeto foi testado exclusivamente no **Debian Linux 13** com **KDE Plasma 6.3**. Pode não funcionar corretamente em outras distribuições Linux devido a diferenças na configuração do ambiente e componentes do KDE Plasma.
 
 > **Nota:** As traduções são automáticas e podem conter erros.

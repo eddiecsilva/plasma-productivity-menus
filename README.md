@@ -1,33 +1,32 @@
 # 🚀 Plasma Productivity Menus
 
-**Service Menus** are context menu entries (right-click) in **Dolphin** (KDE Plasma file manager) that execute quick actions on files/folders. Perfect for automating repetitive tasks without opening extra apps!
+**Service Menus** are context menu entries (right-click) in **Dolphin** (KDE Plasma file manager) that execute quick actions on files and folders. Perfect for automating repetitive tasks without opening additional apps!
 
 ## 💼 For Whom?
 Created for my professional routine in **content creation and digital marketing**:
-- Videos: lossless audio conversion (ALAC/PCM), lightweight proxy, multi-track → single
-- Audio: FLAC, frame extraction
+- Videos: lossless audio conversion (ALAC/PCM), lightweight proxy creation, multi-track to single-track merging
+- Audio: FLAC conversion, frame extraction
 - **Save hours** in batch processing!
 
 ## 📂 Files
 
 - **[export-focus-frames.desktop](export-focus-frames.desktop)** - Extract specific video frames. Use when you need frames useful for analysis or editing.
-- **[convert-audio-to-pcm.desktop](convert-audio-to-pcm.desktop)** - Convert audio to PCM raw. Ideal for audio processing systems that require raw audio format.
-- **[encode-audio-alac.desktop](encode-audio-alac.desktop)** - Batch FLAC conversion (ALAC/Other). Useful for converting FLAC audio files to ALAC or other formats.
-- **[video-proxy-lite.desktop](video-proxy-lite.desktop)** - Create optimized video proxy (1080p). Use to create lighter video versions for editing.
-- **[convert-multichannel-to-stereo.desktop](convert-multichannel-to-stereo.desktop)** - Multi-audio → single lossless track. Perfect for combining multiple audio tracks into a single track.
-- **[convert-flac-to-alac.sh](convert-flac-to-alac.sh)** - Auxiliary script FLAC → ALAC. Use to automate the conversion of FLAC files to ALAC.
-- **[convert-multichannel-to-stereo.sh](convert-multichannel-to-stereo.sh)** - Multi-audio → single script. Ideal for processing multiple audio tracks into a single file.
-- **[convert-pcm-s24le.sh](convert-pcm-s24le.sh)** - PCM S24LE converter/optimization. Use to optimize PCM S24LE audio files.
+- **[convert-audio-to-pcm.desktop](convert-audio-to-pcm.desktop)** - Convert audio to raw PCM. Ideal for audio processing systems requiring raw audio format.
+- **[encode-audio-alac.desktop](encode-audio-alac.desktop)** - Batch FLAC conversion to ALAC/Other formats. Useful for converting FLAC audio files to ALAC or other formats.
+- **[video-proxy-lite.desktop](video-proxy-lite.desktop)** - Create an optimized video proxy (1080p). Use to generate lighter video versions for editing.
+- **[convert-multichannel-to-stereo.desktop](convert-multichannel-to-stereo.desktop)** - Convert multi-channel audio to a single high-quality stereo track. Perfect for combining multiple audio tracks into one.
+- **[convert-flac-to-alac.sh](convert-flac-to-alac.sh)** - Auxiliary script for FLAC to ALAC conversion. Use to automate FLAC file conversion to ALAC.
+- **[convert-multichannel-to-stereo.sh](convert-multichannel-to-stereo.sh)** - Multi-channel audio to single-track script. Ideal for processing multiple audio tracks into a single file.
+- **[convert-pcm-s24le.sh](convert-pcm-s24le.sh)** - PCM S24LE converter/optimizer. Use to optimize PCM S24LE audio files.
 - **[convert-png-to-jpeg-optimized.sh](convert-png-to-jpeg-optimized.sh)** - Convert PNG images to optimized JPEGs. Ideal for creating smaller, web-friendly images from PNG files.
-- **[create-project-structure.desktop](create-project-structure.desktop)** - Creates a basic project structure with standard files (README, .gitignore, etc.). Ideal for speeding up the setup of new projects.
-
+- **[create-project-structure.desktop](create-project-structure.desktop)** - Creates a basic project structure with standard files (README, .gitignore, etc.). Ideal for speeding up new project setup.
 
 ## 🎥 Inspiration
 I learned about Service Menus by watching this excellent video:
 
 [![Service Menus KDE Plasma](https://img.youtube.com/vi/ictZRWJ-8e0/0.jpg)](https://youtu.be/ictZRWJ-8e0?si=OYD-he20ZMA8RpBI)
 
-**"Service Menus KDE Plasma"** - A complete tutorial that changed my productivity!
+**"Service Menus KDE Plasma"** – A complete tutorial that transformed my productivity!
 
 ## 📦 Quick Installation
 ```bash
@@ -40,11 +39,13 @@ I learned about Service Menus by watching this excellent video:
 ```
 
 ## 🛠️ Dependencies
-This project depends on `ffmpeg` to execute audio and video processing actions. Make sure `ffmpeg` is installed on your system.
+This project depends on `ffmpeg` to execute audio and video processing actions. Ensure `ffmpeg` is installed on your system.
 
 ## 📝 Notes
 
-This project was tested exclusively on **Debian Linux 13** with **KDE Plasma 6.3**. It may not work correctly on other Linux distributions due to differences in environment configuration and KDE Plasma components.
+**WARNING:** This project was developed using AI-assisted coding tools like **Opencode** to aid in development. This is a personal project, publicly shared without commercial use intent.
+
+This project has been tested exclusively on **Debian Linux 13** with **KDE Plasma 6.3**. It may not work correctly on other Linux distributions due to differences in environment configuration and KDE Plasma components.
 
 > **Note:** Translations are automatic and may contain errors.
 
