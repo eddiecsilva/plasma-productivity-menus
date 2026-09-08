@@ -3,12 +3,13 @@ Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*
 Actions=proxy
+X-KDE-Submenu="Creator Toolkit"
+
 [Desktop Action proxy]
 Name=Generate light video proxy
 Name[pt_BR]=Gerar Proxy de Vídeo Leve
-Exec=konsole -e ~/.local/share/kio/servicemenus/generate-video-proxy.sh %F
+Exec=konsole -e /projetos/codigos/plasma-productivity-menus/generate-video-proxy-parallel.sh %F
 Icon=video-x-generic
-X-KDE-Submenu=Edição de Vídeo
 
 # This menu executes the generate-proxy.sh script to create a lightweight video proxy (1080p) for editing.
 # Este menu executa o script generate-proxy.sh para gerar um proxy de vídeo leve (1080p) para edição.

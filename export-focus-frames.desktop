@@ -2,12 +2,13 @@
 Type=Service
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/mp4;video/x-matroska;video/x-msvideo;video/webm;video/mpeg;
-Actions=ExportFramesFocus;
-X-KDE-Priority=TopLevel
-X-KDE-StartupNotify=false
+Actions=export_frames
+X-KDE-Submenu="Creator Toolkit"
+
 
 # This menu executes the export-focus-frames.sh script to extract specific video frames.
 # Este menu executa o script export-focus-frames.sh para extrair frames específicos de vídeo.
+
 [Desktop Action ExportFramesFocus]
 Name=Export frames (PNG / 2s / focus)
 Name[pt_BR]=Exportar frames (PNG / 2s / foco)

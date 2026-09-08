@@ -2,9 +2,10 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/mp4;video/x-matroska;video/x-msvideo;video/quicktime;
-Actions=MixAudioTracks;
+Actions=convert_stereo
+X-KDE-Submenu="Creator Toolkit"
 
-[Desktop Action MixAudioTracks]
+[Desktop Action convert_stereo]
 Name=Mix multiple audio tracks into a single lossless track
 Name[pt_BR]=Unificar trilhas de áudio (FFmpeg)
 Icon=audio-volume-high

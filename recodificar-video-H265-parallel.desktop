@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/*
+Actions=recodificar_h265_parallel
+X-KDE-Submenu="Creator Toolkit"
+
+[Desktop Action recodificar_h265_parallel]
+Name=Recodificar Vídeo para H265 (CUDA - Paralelo)
+Exec=konsole -e /projetos/codigos/plasma-productivity-menus/recodificar-video-H265-parallel.sh %F
+Icon=video-x-generic

@@ -1,6 +1,38 @@
 # 🚀 Menus de Produtividade do Plasma
 
-**Service Menus** são entradas de menu de contexto (botão direito) no **Dolphin** (gerenciador de arquivos do KDE Plasma) que executam ações rápidas em arquivos/pastas. Perfeito para automatizar tarefas repetitivas sem abrir aplicativos extras!
+> **Uma coleção independente de Service Menus para o Dolphin criada para automatizar tarefas do meu fluxo de trabalho com edição de vídeo, áudio e organização de arquivos.**
+
+> [!IMPORTANT]
+> Este **não é um projeto oficial do KDE Plasma**. São scripts pessoais disponibilizados publicamente para quem desejar utilizá-los ou adaptá-los.
+
+![Banner](docs/banner.svg)
+
+## Índice
+
+- Visão geral
+- Recursos
+- Scripts
+- Instalação
+- Como usar
+- Estrutura
+- Dependências
+- FAQ
+- Licença
+
+## Visão geral
+
+Os Service Menus permitem executar tarefas diretamente pelo menu de contexto do Dolphin. Este projeto reúne automações usadas diariamente na produção de conteúdo.
+
+![Demo](docs/demo.gif)
+
+## ✨ Recursos
+
+- Integração com o Dolphin
+- Automações em Shell Script
+- Conversões utilizando FFmpeg
+- Organização de arquivos
+- Código simples e fácil de adaptar
+
 
 ## 💼 Para Quem?
 Criado para minha rotina profissional em **criação de conteúdo e marketing digital**:

@@ -2,7 +2,8 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=image/png;
-Actions=ConvertToJPEG;
+Actions=convert_png
+X-KDE-Submenu="Creator Toolkit"
 
 [Desktop Action ConvertToJPEG]
 Name=Convert PNG to Optimized JPEG
