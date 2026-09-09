@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/*
+Actions=encode_audio_alac
+X-KDE-Submenu=Creator Toolkit
+
+[Desktop Action encode_audio_alac]
+Name=Encode Audio to ALAC (Lossless)
+Name[pt_BR]=Codificar Áudio para ALAC (sem perdas)
+Icon=audio-x-generic
+Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/encode-audio-alac.sh %F

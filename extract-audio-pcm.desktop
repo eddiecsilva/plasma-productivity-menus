@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Service
-MimeType=video/*;
+MimeType=video/*
 Actions=extract_pcm
 X-KDE-Submenu=Creator Toolkit
 

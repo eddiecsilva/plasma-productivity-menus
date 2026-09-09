@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Service
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin
-MimeType=video/mp4;video/x-matroska;video/x-msvideo;video/webm;video/mpeg;
+MimeType=video/*
 Actions=ExportFramesFocus;
 X-KDE-Submenu=Creator Toolkit
 X-KDE-StartupNotify=false

@@ -5,7 +5,9 @@
 - Criado sub-menu unificado "Creator Toolkit".
 - Adicionados scripts paralelos para H265, ALAC e Proxy.
 - Padronização de ações e sub-menus em todos os arquivos .desktop.
-- Adicionado relatório de workflow do projeto.
+- Correção dos caminhos nos arquivos .desktop para caminhos absolutos.
+- Atualização do diretório de instalação padrão para `~/.local/share/kio/servicemenus/`.
+- Padronização de nomenclatura de scripts para English kebab-case e limpeza da documentação.
 
 # v1.2.0 - 2026-07-25
 ## Resumo das mudanças

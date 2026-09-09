@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
-MimeType=video/mp4;video/x-matroska;video/x-msvideo;video/quicktime;
+MimeType=video/*
 Actions=convert_stereo
 X-KDE-Submenu=Creator Toolkit
 

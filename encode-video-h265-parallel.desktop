@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/*
+Actions=encode_video_h265_parallel
+X-KDE-Submenu=Creator Toolkit
+
+[Desktop Action encode_video_h265_parallel]
+Name=Encode Video to H265 (CUDA - Parallel)
+Name[pt_BR]=Codificar Vídeo para H265 (CUDA - Paralelo)
+Icon=video-x-generic
+Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/encode-video-h265-parallel.sh %F

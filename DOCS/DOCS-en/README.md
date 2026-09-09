@@ -11,15 +11,18 @@ Created for my professional routine in **content creation and digital marketing*
 ## 📂 Files
 
 - **[export-focus-frames.desktop](export-focus-frames.desktop)** - Extract specific video frames. Use when you need frames useful for analysis or editing.
-- **[convert-audio-to-pcm.desktop](convert-audio-to-pcm.desktop)** - Convert audio to raw PCM. Ideal for audio processing systems requiring raw audio format.
 - **[encode-audio-alac.desktop](encode-audio-alac.desktop)** - Batch FLAC conversion to ALAC/Other formats. Useful for converting FLAC audio files to ALAC or other formats.
-- **[video-proxy-lite.desktop](video-proxy-lite.desktop)** - Create an optimized video proxy (1080p). Use to generate lighter video versions for editing.
+- **[encode-audio-alac-parallel.desktop](encode-audio-alac-parallel.desktop)** - Batch FLAC conversion to ALAC/Other formats in parallel.
 - **[convert-multichannel-to-stereo.desktop](convert-multichannel-to-stereo.desktop)** - Convert multi-channel audio to a single high-quality stereo track. Perfect for combining multiple audio tracks into one.
-- **[convert-flac-to-alac.sh](convert-flac-to-alac.sh)** - Auxiliary script for FLAC to ALAC conversion. Use to automate FLAC file conversion to ALAC.
 - **[convert-multichannel-to-stereo.sh](convert-multichannel-to-stereo.sh)** - Multi-channel audio to single-track script. Ideal for processing multiple audio tracks into a single file.
 - **[convert-pcm-s24le.sh](convert-pcm-s24le.sh)** - PCM S24LE converter/optimizer. Use to optimize PCM S24LE audio files.
 - **[convert-png-to-jpeg-optimized.sh](convert-png-to-jpeg-optimized.sh)** - Convert PNG images to optimized JPEGs. Ideal for creating smaller, web-friendly images from PNG files.
 - **[create-project-structure.desktop](create-project-structure.desktop)** - Creates a basic project structure with standard files (README, .gitignore, etc.). Ideal for speeding up new project setup.
+- **[generate-video-proxy.desktop](generate-video-proxy.desktop)** - Create an optimized video proxy (1080p). Use to generate lighter video versions for editing.
+- **[generate-video-proxy-parallel.sh](generate-video-proxy-parallel.sh)** - Script for creating proxies in parallel.
+- **[encode-video-h265.desktop](encode-video-h265.desktop)** - Video encoding for H265 (CUDA).
+- **[encode-video-h265-parallel.desktop](encode-video-h265-parallel.desktop)** - Video encoding for H265 (CUDA - Parallel).
+- **[remove-audio-tracks.desktop](remove-audio-tracks.desktop)** - Remove audio tracks from video.
 
 ## 🎥 Inspiration
 I learned about Service Menus by watching this excellent video:

@@ -1,9 +1,17 @@
 # Changelog
 
+# v1.3.0 - 2026-09-08
+## Summary of Changes
+- Created unified "Creator Toolkit" submenu.
+- Added parallel scripts for H265, ALAC, and Proxy.
+- Standardized actions and submenus across all .desktop files.
+- Fixed paths in .desktop files to absolute paths.
+- Updated default installation directory to `~/.local/share/kio/servicemenus/`.
+- Standardized script naming to English kebab-case and cleaned up documentation.
+
 # v1.2.0 - 2026-07-25
 ## Summary of Changes
-- Added **`create-project-structure.desktop`**: Creates a basic project structure (README, .gitignore) to speed up new project setup.
-- Updated `README.md` and `README.pt.md` with documentation for the new feature.
+- Added media processing scripts: `convert-multichannel-to-stereo.desktop`, `remove-audio-tracks.desktop`, `generate-video-proxy.desktop`, `extract-audio-pcm.desktop`, and `export-focus-frames.desktop`.
 
 # v1.1.0 - 2026-07-22
 ## Summary of Changes
@@ -16,7 +24,11 @@
 ## Summary of Changes
 - Initial release with core functionalities for video editing and project management.
 - Added `README.md` and `README.pt.md` for bilingual documentation.
-- Added media processing scripts: `convert-multichannel-to-stereo.desktop`, `remove-audio-tracks.desktop`, `generate-video-proxy.desktop`, `extract-audio-pcm.desktop`, and `export-focus-frames.desktop`.
+
+### v1.1.0 - 2026-07-25
+## Summary of Changes
+- Added **`create-project-structure.desktop`**: Creates a basic project structure (README, .gitignore) to speed up new project setup.
+- Updated `README.md` and `README.pt.md` with documentation for the new feature.
 
 # v0.1.0 - 2026-07-20
 ## Summary of Changes

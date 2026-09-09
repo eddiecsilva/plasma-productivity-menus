@@ -43,15 +43,18 @@ Criado para minha rotina profissional em **criação de conteúdo e marketing di
 ## 📂 Arquivos
 
 - **[export-focus-frames.desktop](export-focus-frames.desktop)** - Extrai quadros específicos de vídeo. Use quando precisar de quadros úteis para análise ou edição.
-- **[convert-audio-to-pcm.desktop](convert-audio-to-pcm.desktop)** - Converte áudio para PCM bruto. Ideal para sistemas de processamento de áudio que exigem formato de áudio cru.
 - **[encode-audio-alac.desktop](encode-audio-alac.desktop)** - Conversão em lote de FLAC (ALAC/Outros). Útil para converter arquivos de áudio FLAC para ALAC ou outros formatos.
-- **[video-proxy-lite.desktop](video-proxy-lite.desktop)** - Cria proxy de vídeo otimizado (1080p). Use para criar versões de vídeo mais leves para edição.
+- **[encode-audio-alac-parallel.desktop](encode-audio-alac-parallel.desktop)** - Conversão em lote de FLAC (ALAC/Outros) em paralelo.
 - **[convert-multichannel-to-stereo.desktop](convert-multichannel-to-stereo.desktop)** - Multi-áudio → trilha única de alta qualidade. Perfeito para combinar múltiplas trilhas de áudio em uma única trilha.
-- **[convert-flac-to-alac.sh](convert-flac-to-alac.sh)** - Script auxiliar FLAC → ALAC. Use para automatizar a conversão de arquivos FLAC para ALAC.
 - **[convert-multichannel-to-stereo.sh](convert-multichannel-to-stereo.sh)** - Script multi-áudio → trilha única. Ideal para processar múltiplas trilhas de áudio em um único arquivo.
 - **[convert-pcm-s24le.sh](convert-pcm-s24le.sh)** - Conversor/otimização de PCM S24LE. Use para otimizar arquivos de áudio PCM S24LE.
 - **[convert-png-to-jpeg-optimized.sh](convert-png-to-jpeg-optimized.sh)** - Converte imagens PNG em JPEGs otimizados. Ideal para criar imagens menores e mais adequadas para a web a partir de arquivos PNG.
 - **[create-project-structure.desktop](create-project-structure.desktop)** - Cria uma estrutura básica de projeto com arquivos padrão (README, .gitignore, etc.). Ideal para acelerar a inicialização de novos projetos.
+- **[generate-video-proxy.desktop](generate-video-proxy.desktop)** - Cria proxy de vídeo otimizado (1080p). Use para criar versões de vídeo mais leves para edição.
+- **[generate-video-proxy-parallel.sh](generate-video-proxy-parallel.sh)** - Script para criação de proxy em paralelo.
+- **[encode-video-h265.desktop](encode-video-h265.desktop)** - Codificação de vídeo para H265 (CUDA).
+- **[encode-video-h265-parallel.desktop](encode-video-h265-parallel.desktop)** - Codificação de vídeo para H265 (CUDA - Paralelo).
+- **[remove-audio-tracks.desktop](remove-audio-tracks.desktop)** - Remove as trilhas de áudio do vídeo.
 
 
 ## 🎥 Inspiração
