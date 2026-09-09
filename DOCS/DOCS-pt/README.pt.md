@@ -77,6 +77,19 @@ Aprendi sobre Service Menus assistindo a este vídeo excelente:
 ## 🛠️ Dependências
 Este projeto depende do `ffmpeg` para executar ações de processamento de áudio e vídeo. Certifique-se de que o `ffmpeg` está instalado em seu sistema.
 
+### Dependências Opcionais
+
+Alguns scripts usam processamento paralelo e exigem o **GNU parallel**:
+- `generate-video-proxy-parallel.sh`
+- `encode-video-h265-parallel.desktop`
+- `encode-audio-alac-parallel.desktop`
+
+Instalação: `sudo apt install parallel`
+
+### Requisitos de Hardware
+
+Scripts com aceleração CUDA (`encode-video-h265*`) exigem **hardware NVIDIA** com drivers adequados para funcionar corretamente.
+
 ## 📝 Observações
 
 **AVISO:** Este projeto foi desenvolvido utilizando ferramentas de código assistidas por IA, como **Opencode**, para auxiliar no desenvolvimento. Trata-se de um projeto pessoal, disponibilizado publicamente sem intenção de uso comercial.
