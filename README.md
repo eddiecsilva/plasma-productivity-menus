@@ -1,4 +1,5 @@
 # Creator Toolkit
+![Banner](img/project_thumb.png)
 
 A collection of automation scripts and service menus designed to streamline video and audio post-production workflows. This toolkit provides high-performance tools for tasks like proxy generation, audio encoding, and format conversion, integrating directly into the KDE Plasma environment.
 

@@ -1,4 +1,5 @@
 # 🚀 Plasma Productivity Menus
+![Banner](img/project_thumb.png)
 
 **Service Menus** are context menu entries (right-click) in **Dolphin** (KDE Plasma file manager) that execute quick actions on files and folders. Perfect for automating repetitive tasks without opening additional apps!
 
