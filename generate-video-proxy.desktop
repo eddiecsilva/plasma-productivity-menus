@@ -4,11 +4,12 @@ ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*
 Actions=proxy
 X-KDE-Submenu=Creator Toolkit
+Icon=applications-accessories
 
 [Desktop Action proxy]
 Name=Generate light video proxy
 Name[pt_BR]=Gerar Proxy de Vídeo Leve
-Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/generate-video-proxy-parallel.sh %F
+Exec=konsole -e ~/.local/share/kio/servicemenus/generate-video-proxy-parallel.sh %F
 Icon=video-x-generic
 
 # This menu executes the generate-proxy.sh script to create a lightweight video proxy (1080p) for editing.

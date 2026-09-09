@@ -4,9 +4,10 @@ ServiceTypes=KonqPopupMenu/Plugin
 MimeType=image/png;
 Actions=convert_png
 X-KDE-Submenu=Creator Toolkit
+Icon=applications-accessories
 
 [Desktop Action ConvertToJPEG]
 Name=Convert PNG to Optimized JPEG
 Name[pt_BR]=Converter PNG em JPEG Otimizado
 Icon=photo
-Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/convert-png-to-jpeg-optimized.sh %F
+Exec=konsole -e ~/.local/share/kio/servicemenus/convert-png-to-jpeg-optimized.sh %F

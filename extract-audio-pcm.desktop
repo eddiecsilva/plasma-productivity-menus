@@ -3,13 +3,14 @@ Type=Service
 MimeType=video/*
 Actions=extract_pcm
 X-KDE-Submenu=Creator Toolkit
+Icon=applications-accessories
 
 
 [Desktop Action extract_pcm]
 Name=Extract Audio PCM 24
 Name[pt_BR]=Extrair Audio PCM 24
 Icon=video-x-generic
-Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/extract-audio-pcm.sh %F
+Exec=konsole -e ~/.local/share/kio/servicemenus/extract-audio-pcm.sh %F
 
 
 # This menu executes the extract-audio-pcm.sh script to extract audio in PCM 24-bit format.

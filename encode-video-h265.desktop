@@ -4,9 +4,10 @@ ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*
 Actions=encode_video_h265
 X-KDE-Submenu=Creator Toolkit
+Icon=applications-accessories
 
 [Desktop Action encode_video_h265]
 Name=Encode Video to H265 (CUDA)
 Name[pt_BR]=Codificar Vídeo para H265 (CUDA)
 Icon=video-x-generic
-Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/encode-video-h265.sh %F
+Exec=konsole -e ~/.local/share/kio/servicemenus/encode-video-h265.sh %F

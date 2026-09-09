@@ -5,6 +5,7 @@ MimeType=video/*
 Actions=ExportFramesFocus;
 X-KDE-Submenu=Creator Toolkit
 X-KDE-StartupNotify=false
+Icon=applications-accessories
 
 # This menu executes the export-focus-frames.sh script to extract specific video frames.
 # Este menu executa o script export-focus-frames.sh para extrair frames específicos de vídeo.
@@ -12,7 +13,7 @@ X-KDE-StartupNotify=false
 Name=Export frames (PNG / 2s / focus)
 Name[pt_BR]=Exportar frames (PNG / 2s / foco)
 Icon=video-x-generic
-Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/export-focus-frames.sh
+Exec=konsole -e ~/.local/share/kio/servicemenus/export-focus-frames.sh
 
 
 # This menu executes the export-focus-frames.sh script to extract specific video frames.

@@ -4,9 +4,10 @@ ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*
 Actions=encode_audio_alac_parallel
 X-KDE-Submenu=Creator Toolkit
+Icon=applications-accessories
 
 [Desktop Action encode_audio_alac_parallel]
 Name=Encode Audio to ALAC (Parallel)
 Name[pt_BR]=Codificar Áudio para ALAC (Paralelo)
 Icon=audio-x-generic
-Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/encode-audio-alac-parallel.sh %F
+Exec=konsole -e ~/.local/share/kio/servicemenus/encode-audio-alac-parallel.sh %F

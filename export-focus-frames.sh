@@ -18,8 +18,8 @@ for file in "$@"; do
     ffmpeg -hide_banner \
         -stats \
         -i "$file" \
-        -vf "fps=1/2,format=rgb24" \
-        -vsync vfr \
+        -vf "fps=1/2,pix_fmt=yuv420p,format=rgb24" \
+        -fps_mode vfr \
         -compression_level 6 \
         "$outdir/${name}_frame_%06d.png"\
 
