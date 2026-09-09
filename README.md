@@ -17,6 +17,16 @@ A collection of automation scripts and service menus designed to streamline vide
 - **Image Optimization**: Fast conversion of PNG files to optimized JPEGs for web use.
 - **Project Management**: Instant creation of standardized project structures with pre-configured files.
 
+## 📦 Quick Installation
+```bash
+ git clone https://github.com/eddiecsilva/plasma-productivity-menus
+ cd plasma-productivity-menus
+ cp * ~/.local/share/kio/servicemenus/
+ cd ~/.local/share/kio/servicemenus/
+ chmod +x *
+ kbuildsycoca6 --noincremental
+```
+
 ## 📖 Documentation & History
 
 - **[Portuguese (BR) Documentation](DOCS/DOCS-pt/README.pt.md)**
