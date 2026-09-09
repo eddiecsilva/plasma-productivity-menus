@@ -1,5 +1,9 @@
-# Changelog
+# v1.3.2 - 2026-09-08
+## Summary of Changes
+- Fixed FFmpeg deprecation and pixel format warnings in export-focus-frames.sh.
+- Standardized Exec paths in all .desktop files and added Icon fields.
 
+# v1.3.0 - 2026-09-08
 # v1.3.0 - 2026-09-08
 ## Summary of Changes
 - Created unified "Creator Toolkit" submenu.

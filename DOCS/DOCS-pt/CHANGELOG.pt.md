@@ -1,5 +1,9 @@
-# Anotações e recados
+# v1.3.2 - 2026-09-08
+## Resumo das mudanças
+- Corrigido avisos de depreciação do FFmpeg e de formato de pixel no export-focus-frames.sh.
+- Padronizados os caminhos Exec em todos os arquivos .desktop e adicionados campos Icon.
 
+# v1.3.0 - 2026-09-08
 # v1.3.0 - 2026-09-08
 ## Resumo das mudanças
 - Criado sub-menu unificado "Creator Toolkit".
