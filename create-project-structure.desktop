@@ -10,7 +10,7 @@ Icon=applications-accessories
 Name=Create project folders (a-roll, b-roll, img, thumb, extras)
 Name[pt_BR]=Criar pastas de projeto (a-roll, b-roll, img, thumb, extras)
 Icon=folder-new
-Exec=konsole -e bash -c 'for dir in "a-roll" "b-roll" "img" "thumb" "extras"; do mkdir -p "%f/$dir" && echo "📁 Criada: %f/$dir"; done'\nX-KDE-Submenu="Creator Toolkit"
+Exec=konsole -e ~/.local/share/kio/servicemenus/create-project-structure.sh %f\nX-KDE-Submenu="Creator Toolkit"
 
 # This menu executes the create-project-structure.sh script to create a standard project structure with a-roll, b-roll, img, thumb, and extras folders.
 # Este menu executa o script create-project-structure.sh para criar uma estrutura de projeto padrão com pastas de a-roll, b-roll, img, thumb e extras.
