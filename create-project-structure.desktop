@@ -3,7 +3,7 @@ Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=inode/directory
 Actions=create_structure
-X-KDE-Submenu="Creator Toolkit"
+X-KDE-Submenu=Creator Toolkit
 
 [Desktop Action create_structure]
 Name=Create project folders (a-roll, b-roll, img, thumb, extras)

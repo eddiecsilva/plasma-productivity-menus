@@ -3,14 +3,14 @@ Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*
 Actions=remove_audio
-X-KDE-Submenu="Creator Toolkit"
+X-KDE-Submenu=Creator Toolkit
 
 
 [Desktop Action remove_audio]
 Name=Remove all audio tracks (video intact)
 Name[pt_BR]=Remover todas as trilhas de áudio (vídeo intacto)
 Icon=audio-volume-muted
-Exec=konsole -e ~/.local/share/kio/servicemenus/remove-audio-tracks.sh %F
+Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/remove-audio-tracks.sh %F
 
 # This menu executes the remove-audio-tracks.sh script to remove all audio tracks from the video, keeping the video intact.
 # Este menu executa o script remove-audio-tracks.sh para remover todas as trilhas de áudio do vídeo, mantendo o vídeo intacto.

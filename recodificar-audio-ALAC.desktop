@@ -3,9 +3,9 @@ Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=video/*
 Actions=recodificar_alac
-X-KDE-Submenu="Creator Toolkit"
+X-KDE-Submenu=Creator Toolkit
 
 [Desktop Action recodificar_alac]
 Name=Recodificar Áudio para ALAC (sem perdas)
-Exec=konsole -e /projetos/codigos/plasma-productivity-menus/recodificar-audio-ALAC-parallel.sh %F
+Exec=konsole -e /home/eddiedebian/.local/share/kio/servicemenus/recodificar-audio-ALAC-parallel.sh %F
 Icon=audio-x-generic

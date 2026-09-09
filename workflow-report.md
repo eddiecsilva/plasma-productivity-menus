@@ -12,7 +12,7 @@ Foram implementadas ferramentas de automação para processamento de mídia de a
 ### Integração com Sistema:
 - **Menu Hierárquico**: Agrupamento de todas as ferramentas sob o sub-menu **"Creator Toolkit"**.
 - **Automação de Janela**: Remoção da flag `--hold` para que as janelas do terminal fechem automaticamente após a conclusão.
-- **Implantação**: Configuração dos arquivos de serviço em `~/.local/share/kf6/services/`.
+- **Implantação**: Configuração dos arquivos de serviço em `~/.local/share/kio/servicemenus/`.
 
 ## 📂 Estrutura de Arquivos
 ```text

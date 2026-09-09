@@ -1,5 +1,12 @@
 # Anotações e recados
 
+# v1.3.0 - 2026-09-08
+## Resumo das mudanças
+- Criado sub-menu unificado "Creator Toolkit".
+- Adicionados scripts paralelos para H265, ALAC e Proxy.
+- Padronização de ações e sub-menus em todos os arquivos .desktop.
+- Adicionado relatório de workflow do projeto.
+
 # v1.2.0 - 2026-07-25
 ## Resumo das mudanças
 - Adicionados scripts de processamento de mídia: `convert-multichannel-to-stereo.desktop`, `remove-audio-tracks.desktop`, `generate-video-proxy.desktop`, `extract-audio-pcm.desktop` e `export-focus-frames.desktop`.
@@ -15,7 +22,6 @@
 ## Resumo das mudanças
 - Lançamento inicial com funcionalidades principais para edição de vídeo e gerenciamento de projetos.
 - Adicionados `README.md` e `README.pt.md` para documentação bilingue.
-
 
 ### v1.1.0 - 2026-07-25
 ## Resumo das mudanças
