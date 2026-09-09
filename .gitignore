@@ -30,38 +30,6 @@ Thumbs.db
 *.swp
 *.swo
 
-# Compiled files
-*.o
-*.so
-*.a
-*.bin
-
-# Logs and temporary files
-*.log
-*.tmp
-*.swp
-*.bak
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.pytest_cache/
-.venv/
-venv/
-env/
-
-# OS specific
-.DS_Store
-Thumbs.db
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-
 # Opencode
 .opencode/
 opencode.json

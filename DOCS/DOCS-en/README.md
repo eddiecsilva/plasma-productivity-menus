@@ -61,7 +61,7 @@ The following scripts generate specific file types based on their purpose:
 
 1. **extract-audio-pcm.sh** → `.wav` (audio in PCM format, 24-bit little-endian)
 2. **convert-multichannel-to-stereo.sh** → `.mp4` (video with mixed stereo audio, AAC audio codec)
-3. **generate-video-proxy.sh** → `.mp4` (video proxy in 1080p or original resolution, H.264 NVENC codec)
+3. **generate-video-proxy-parallel.sh** → `.mp4` (video proxy in 1080p or original resolution, H.264 NVENC codec)
 4. **remove-audio-tracks.sh** → `.mp4` (video without audio, video and subtitle copy)
 5. **export-focus-frames.sh** → `.png` (sequential images every 2 seconds)
 

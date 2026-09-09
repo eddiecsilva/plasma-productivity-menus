@@ -12,5 +12,5 @@ Name[pt_BR]=Gerar Proxy de Vídeo Leve
 Exec=konsole -e ~/.local/share/kio/servicemenus/generate-video-proxy-parallel.sh %F
 Icon=video-x-generic
 
-# This menu executes the generate-proxy.sh script to create a lightweight video proxy (1080p) for editing.
-# Este menu executa o script generate-proxy.sh para gerar um proxy de vídeo leve (1080p) para edição.
+# This menu executes the generate-video-proxy-parallel.sh script to create a lightweight video proxy (1080p) for editing.
+# Este menu executa o script generate-video-proxy-parallel.sh para gerar um proxy de vídeo leve (1080p) para edição.
