@@ -5,7 +5,7 @@
 > [!IMPORTANT]
 > Este **não é um projeto oficial do KDE Plasma**. São scripts pessoais disponibilizados publicamente para quem desejar utilizá-los ou adaptá-los.
 
-![Banner](img/project_thumb.svg)
+![Banner](img/project_thumb.png)
 
 ## Índice
 
