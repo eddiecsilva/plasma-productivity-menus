@@ -1,3 +1,8 @@
+# v1.3.4 - 2026-09-27
+## Summary of Changes
+- Renamed `README-teste.md` to `README.md`, removed old `README.md`.
+- Updated documentation: corrected screenshot path, added changelog link, restored banner.
+
 # v1.3.3 - 2026-09-27
 ## Summary of Changes
 - Added `extract-audio-mp3.desktop` and `extract-audio-mp3.sh` for MP3 extraction with high fidelity (320kbps).
