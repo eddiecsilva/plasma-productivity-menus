@@ -1,5 +1,7 @@
 # Creator Toolkit
 
+![Banner](img/project_thumb.png)
+
 [![License](https://img.shields.io/github/license/eddiecsilva/plasma-productivity-menus)](LICENSE)
 ![Linux](https://img.shields.io/badge/platform-Linux-FCC624?logo=linux&logoColor=black)
 ![KDE Plasma](https://img.shields.io/badge/KDE%20Plasma-4285F4?logo=kde&logoColor=white)
