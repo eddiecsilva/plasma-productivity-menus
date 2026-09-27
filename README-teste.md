@@ -9,7 +9,7 @@
 
 Ações de produtividade para o menu de contexto do KDE Dolphin, voltadas para fluxos de áudio, vídeo, imagens e organização de projetos no Linux.
 
-[Recursos](#recursos) · [Requisitos](#requisitos) · [Instalação](#instalação) · [Uso](#uso) · [Solução-de-problemas](#solução-de-problemas) · [Contribuição](#contribuição)
+[Recursos](#recursos) · [Requisitos](#requisitos) · [Instalação](#instalação) · [Uso](#uso) · [Changelog](#changelog) · [Solução-de-problemas](#solução-de-problemas) · [Contribuição](#contribuição)
 
 ## Veja em ação
 
@@ -173,6 +173,10 @@ No comando FFmpeg, `-hwaccel cuda` acelera a decodificação e `-c:v hevc_nvenc`
 - `img/`: imagens do projeto.
 - `CHANGELOG.md`: histórico de alterações.
 - `LICENSE`: licença do projeto.
+
+## Changelog
+
+Histórico de alterações veja [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Contribuição
 
