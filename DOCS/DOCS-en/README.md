@@ -24,6 +24,7 @@ Created for my professional routine in **content creation and digital marketing*
 - **[encode-video-h265.desktop](encode-video-h265.desktop)** - Video encoding for H265 (CUDA).
 - **[encode-video-h265-parallel.desktop](encode-video-h265-parallel.desktop)** - Video encoding for H265 (CUDA - Parallel).
 - **[remove-audio-tracks.desktop](remove-audio-tracks.desktop)** - Remove audio tracks from video.
+- **[extract-audio-mp3.desktop](extract-audio-mp3.desktop)** - Extract video audio to MP3 with high fidelity (320kbps).
 
 ## 🎥 Inspiration
 I learned about Service Menus by watching this excellent video:
@@ -79,3 +80,5 @@ The following scripts generate specific file types based on their purpose:
 5. **export-focus-frames.sh** → `.png` (sequential images every 2 seconds)
 
 All generated files are container formats with common FFmpeg codecs.
+
+6. **extract-audio-mp3.sh** → `.mp3` (audio in MP3 format, 320kbps)

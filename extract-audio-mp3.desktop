@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Service
+MimeType=video/*
+Actions=extract_mp3
+X-KDE-Submenu=Creator Toolkit
+Icon=applications-accessories
+
+
+[Desktop Action extract_mp3]
+Name=Extract Audio MP3 High Quality
+Name[pt_BR]=Extrair Audio MP3 Alta Fidelidade
+Icon=video-x-generic
+Exec=konsole -e ~/.local/share/kio/servicemenus/extract-audio-mp3.sh %F
+
+
+# This menu executes the extract-audio-mp3.sh script to extract audio in MP3 format with high fidelity (320kbps).
+# Este menu executa o script extract-audio-mp3.sh para extrair áudio em formato MP3 com alta fidelidade (320kbps).

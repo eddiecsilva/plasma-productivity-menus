@@ -1,3 +1,7 @@
+# v1.3.3 - 2026-09-27
+## Resumo das mudanças
+- Adicionado `extract-audio-mp3.desktop` e `extract-audio-mp3.sh` para extração de MP3 com alta fidelidade (320kbps).
+
 # v1.3.2 - 2026-09-08
 ## Resumo das mudanças
 - Corrigido avisos de depreciação do FFmpeg e de formato de pixel no export-focus-frames.sh.
