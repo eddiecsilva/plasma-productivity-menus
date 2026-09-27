@@ -9,8 +9,10 @@
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?logo=ffmpeg&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-NVIDIA%20NVENC-76B900?logo=nvidia&logoColor=white)
 
-Ações de produtividade para o menu de contexto do KDE Dolphin, voltadas para fluxos de áudio, vídeo, imagens e organização de projetos no Linux.
+Uma coleção de scripts de automação e menus de serviço projetada para otimizar fluxos de trabalho de pós-produção de vídeo e áudio. Este conjunto de ferramentas oferece recursos de alto desempenho para tarefas como geração de proxies, codificação de áudio e conversão de formato, integrando-se diretamente ao ambiente KDE Plasma.
 
+
+### Sumário
 [Recursos](#recursos) · [Requisitos](#requisitos) · [Instalação](#instalação) · [Uso](#uso) · [Changelog](#changelog) · [Solução-de-problemas](#solução-de-problemas) · [Contribuição](#contribuição)
 
 ## Veja em ação
