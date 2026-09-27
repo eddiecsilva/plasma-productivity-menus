@@ -3,167 +3,140 @@
 [![License](https://img.shields.io/github/license/eddiecsilva/plasma-productivity-menus)](LICENSE)
 ![Linux](https://img.shields.io/badge/platform-Linux-FCC624?logo=linux&logoColor=black)
 ![KDE Plasma](https://img.shields.io/badge/KDE%20Plasma-4285F4?logo=kde&logoColor=white)
-![Shell Script](https://img.shields.io/badge/shell-Bash-4EAA25?logo=gnu-bash&logoColor=white)
+![Bash](https://img.shields.io/badge/shell-Bash-4EAA25?logo=gnu-bash&logoColor=white)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?logo=ffmpeg&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-NVIDIA%20NVENC-76B900?logo=nvidia&logoColor=white)
 
-Ações personalizadas para o menu de contexto do KDE Dolphin, criadas para agilizar tarefas de produção audiovisual, conversão de arquivos e criação de estruturas de projetos no Linux.
+Ações de produtividade para o menu de contexto do KDE Dolphin, voltadas para fluxos de áudio, vídeo, imagens e organização de projetos no Linux.
 
-O projeto combina scripts Shell com arquivos `.desktop` para disponibilizar funções diretamente no menu de contexto do gerenciador de arquivos.
+[Recursos](#recursos) · [Requisitos](#requisitos) · [Instalação](#instalação) · [Uso](#uso) · [Solução-de-problemas](#solução-de-problemas) · [Contribuição](#contribuição)
 
-> O nome de cada função representa um recurso completo. Em geral, o par formado por um arquivo `.sh` e um arquivo `.desktop` deve ser mantido junto: o script executa a tarefa e o arquivo `.desktop` integra essa tarefa ao Dolphin.
+## Veja em ação
 
-## Visão geral
+![Menu de contexto do Creator Toolkit no KDE Dolphin](img/creator-toolkit-menu-showcase.png)
 
-O Creator Toolkit reúne utilitários para tarefas recorrentes, como:
+O Creator Toolkit adiciona ações personalizadas ao Dolphin usando scripts Shell e arquivos `.desktop`.
 
-- conversão e processamento de áudio;
-- codificação de vídeo em H.265 usando NVIDIA NVENC;
-- geração de proxies para edição;
-- extração de áudio de vídeos;
-- exportação de quadros;
-- conversão de imagens;
-- criação de estruturas iniciais de projetos;
-- processamento paralelo de arquivos.
+> [!IMPORTANT]
+> Cada recurso é formado por um par de arquivos: o `.sh` executa a tarefa e o `.desktop` adiciona a ação ao menu do Dolphin.
 
-Os scripts preservam os arquivos originais. Entretanto, arquivos de saída que já existam podem ser sobrescritos quando uma função for executada novamente.
+> [!WARNING]
+> Os arquivos originais são preservados, mas arquivos de saída com o mesmo nome podem ser sobrescritos quando o recurso for executado novamente.
 
-Faça testes com cópias dos arquivos antes de realizar processamentos em lote.
+## Recursos
 
-## Recursos disponíveis
+### 🎧 Áudio
 
-### Áudio
-
-| Função | Arquivos | Utilidade |
+| Função | Recurso | Utilidade |
 | --- | --- | --- |
-| Converter áudio multicanal para estéreo | `convert-multichannel-to-stereo.sh`<br>`convert-multichannel-to-stereo.desktop` | Converte arquivos de áudio multicanal para estéreo. |
-| Codificar áudio para ALAC | `encode-audio-alac.sh`<br>`encode-audio-alac.desktop` | Converte arquivos de áudio para Apple Lossless Audio Codec. |
-| Codificar áudio para ALAC em paralelo | `encode-audio-alac-parallel.sh`<br>`encode-audio-alac-parallel.desktop` | Processa vários arquivos de áudio simultaneamente. |
-| Extrair áudio em MP3 | `extract-audio-mp3.sh`<br>`extract-audio-mp3.desktop` | Extrai o áudio de arquivos de vídeo e gera arquivos MP3. |
-| Extrair áudio em PCM | `extract-audio-pcm.sh`<br>`extract-audio-pcm.desktop` | Extrai áudio sem compressão em formato PCM. |
-| Remover faixas de áudio | `remove-audio-tracks.sh`<br>`remove-audio-tracks.desktop` | Remove faixas de áudio de arquivos de vídeo. |
+| Conversão multicanal para estéreo | `convert-multichannel-to-stereo` | Converte áudio multicanal para estéreo. |
+| Codificação para ALAC | `encode-audio-alac` | Converte áudio para Apple Lossless Audio Codec. |
+| Codificação ALAC em paralelo | `encode-audio-alac-parallel` | Processa vários arquivos de áudio simultaneamente. |
+| Extração para MP3 | `extract-audio-mp3` | Extrai o áudio de vídeos em formato MP3. |
+| Extração para PCM | `extract-audio-pcm` | Extrai áudio sem compressão em PCM. |
+| Remoção de faixas de áudio | `remove-audio-tracks` | Remove faixas de áudio de arquivos de vídeo. |
 
-### Vídeo
+Cada recurso acima corresponde a dois arquivos com o mesmo nome-base:
 
-| Função | Arquivos | Utilidade |
+```text
+nome-do-recurso.sh
+nome-do-recurso.desktop
+```
+
+### 🎬 Vídeo
+
+| Função | Recurso | Utilidade |
 | --- | --- | --- |
-| Codificar vídeo para H.265 com CUDA | `encode-video-h265.sh`<br>`encode-video-h265.desktop` | Recodifica vídeos usando `hevc_nvenc`, o encoder H.265 da NVIDIA. |
-| Codificar vídeo para H.265 em paralelo | `encode-video-h265-parallel.sh`<br>`encode-video-h265-parallel.desktop` | Processa vários vídeos simultaneamente usando codificação H.265 acelerada por GPU, quando configurada no script e no sistema. |
-| Gerar proxy de vídeo | `generate-video-proxy-parallel.sh`<br>`generate-video-proxy.desktop` | Gera arquivos proxy para facilitar a edição de vídeos pesados. |
-| Exportar quadros de foco | `export-focus-frames.sh`<br>`export-focus-frames.desktop` | Exporta quadros selecionados a partir de arquivos de vídeo. |
+| Codificação H.265 com CUDA | `encode-video-h265` | Recodifica vídeos usando o encoder `hevc_nvenc` da NVIDIA. |
+| Codificação H.265 em paralelo | `encode-video-h265-parallel` | Processa vários vídeos simultaneamente. |
+| Geração de proxy | `generate-video-proxy` | Cria arquivos proxy para facilitar a edição. |
+| Exportação de quadros | `export-focus-frames` | Exporta quadros selecionados de vídeos. |
 
-### Imagens
+### 🖼️ Imagens
 
-| Função | Arquivos | Utilidade |
+| Função | Recurso | Utilidade |
 | --- | --- | --- |
-| Converter PNG para JPEG otimizado | `convert-png-to-jpeg-optimized.sh`<br>`convert-png-to-jpeg-optimized.desktop` | Converte imagens PNG para JPEG com foco na redução do tamanho do arquivo. |
+| PNG para JPEG otimizado | `convert-png-to-jpeg-optimized` | Converte PNG para JPEG e reduz o tamanho do arquivo. |
 
-### Projetos
+### 📁 Projetos
 
-| Função | Arquivos | Utilidade |
+| Função | Recurso | Utilidade |
 | --- | --- | --- |
-| Criar estrutura de projeto | `create-project-structure.sh`<br>`create-project-structure.desktop` | Cria uma estrutura inicial de diretórios para novos projetos. |
+| Estrutura de projeto | `create-project-structure` | Cria diretórios iniciais para novos projetos. |
 
 ## Requisitos
 
-Para usar os menus, é necessário ter:
-
-- Linux;
-- KDE Plasma;
-- KDE Dolphin;
+- Linux com KDE Plasma e Dolphin;
 - Bash;
 - FFmpeg e FFprobe;
-- GNU Parallel para as funções paralelas;
+- GNU Parallel para os recursos paralelos;
 - utilitários padrão do ambiente GNU/Linux.
 
-Para usar a codificação H.265 com CUDA/NVENC, também são necessários:
+Para codificação H.265 com CUDA/NVENC, adicione:
 
-- uma GPU NVIDIA compatível com NVENC;
-- drivers NVIDIA instalados e funcionando;
-- FFmpeg compilado com suporte a `hevc_nvenc`;
+- GPU NVIDIA compatível com NVENC;
+- drivers NVIDIA instalados;
+- FFmpeg com suporte a `hevc_nvenc`;
 - `nvidia-smi` funcionando corretamente.
 
-Em distribuições baseadas em Debian ou Ubuntu, alguns requisitos podem ser instalados com:
-
-```bash
-sudo apt install ffmpeg parallel
-```
-
-Consulte o gerenciador de pacotes da sua distribuição para instalar os equivalentes em outros sistemas.
-
-Confirme o suporte do FFmpeg ao encoder NVIDIA com:
+Verifique o encoder disponível:
 
 ```bash
 ffmpeg -hide_banner -encoders | grep -E 'hevc_nvenc|h264_nvenc'
 ```
 
-O resultado deve conter uma entrada semelhante a:
+Em Debian e Ubuntu, instale os requisitos básicos com:
 
-```text
-V..... hevc_nvenc           NVIDIA NVENC hevc encoder
+```bash
+sudo apt install ffmpeg parallel
 ```
 
 ## Instalação
 
-Clone o repositório:
-
 ```bash
 git clone https://github.com/eddiecsilva/plasma-productivity-menus.git
 cd plasma-productivity-menus
-```
-
-Dê permissão de execução aos scripts:
-
-```bash
 chmod +x *.sh
-```
-
-Instale os arquivos `.desktop` no diretório de menus de serviço do KDE:
-
-```bash
 mkdir -p ~/.local/share/kio/servicemenus
 cp *.desktop ~/.local/share/kio/servicemenus/
 ```
 
-Os arquivos `.sh` também precisam estar no caminho esperado pelos arquivos `.desktop`. Se os arquivos `.desktop` utilizarem caminhos absolutos, ajuste esses caminhos de acordo com o local em que o repositório foi instalado.
+Os arquivos `.desktop` precisam encontrar os scripts `.sh` no caminho definido em suas linhas `Exec`. Se necessário, ajuste esses caminhos para o local em que o repositório foi instalado.
 
-Depois da instalação, reinicie o Dolphin. Se os novos itens não aparecerem, encerre e inicie novamente a sessão do KDE Plasma.
+Reinicie o Dolphin após a instalação. Se os itens não aparecerem, reinicie também a sessão do KDE Plasma.
 
-> O diretório utilizado pelos menus de serviço pode variar conforme a versão do KDE Plasma e a distribuição. Se os itens não aparecerem no Dolphin, verifique também os diretórios de serviços do KDE utilizados pelo seu sistema.
+> O diretório dos menus de serviço pode variar conforme a versão do KDE Plasma e a distribuição. Consulte a documentação do seu sistema se `~/.local/share/kio/servicemenus` não funcionar.
 
-## Como usar
+## Uso
 
 1. Abra o Dolphin.
 2. Selecione um ou mais arquivos.
-3. Clique com o botão direito sobre a seleção.
-4. Localize a ação correspondente no menu de contexto.
-5. Execute a função desejada.
+3. Clique com o botão direito.
+4. Escolha uma ação do Creator Toolkit.
 
-Os scripts preservam os arquivos originais, mas podem sobrescrever arquivos gerados anteriormente quando o nome de saída for o mesmo. Antes de repetir uma conversão ou executar um processamento em lote, confira os arquivos de destino.
-
-As funções com `parallel` no nome podem iniciar vários processos simultaneamente. O processamento paralelo pode aumentar o consumo de CPU, memória, armazenamento temporário e, no caso de codificação NVENC, a utilização da GPU.
+As funções com `parallel` podem iniciar vários processos simultaneamente. Isso aumenta o consumo de CPU, memória e, no caso de NVENC, recursos da GPU. Muitos processos concorrentes podem saturar o encoder e reduzir o desempenho.
 
 ## Solução de problemas
 
 ### A ação não aparece no Dolphin
 
-Verifique:
+Confira:
 
-- se os arquivos `.desktop` foram copiados para o diretório correto;
-- se os scripts `.sh` estão no caminho esperado pelos arquivos `.desktop`;
+- se os arquivos `.desktop` estão no diretório correto;
+- se a linha `Exec` aponta para o script `.sh` correto;
 - se o Dolphin foi reiniciado;
-- se os arquivos `.desktop` possuem permissão de leitura;
-- se a sessão do KDE foi reiniciada após a instalação.
+- se a sessão do KDE Plasma foi reiniciada, quando necessário.
 
 ### O script não é executado
 
-Confira se o script possui permissão de execução:
+Dê permissão de execução ao script e teste-o pelo terminal:
 
 ```bash
 chmod +x nome-do-script.sh
+./nome-do-script.sh arquivo-de-teste
 ```
 
-Também verifique se as dependências estão instaladas:
+Confira também as dependências:
 
 ```bash
 command -v ffmpeg
@@ -173,94 +146,43 @@ command -v parallel
 
 ### A janela do Konsole fecha rapidamente
 
-Durante os testes, adicione `--keep` à linha `Exec` do arquivo `.desktop`. Isso mantém a janela do Konsole aberta depois da execução e facilita a visualização de mensagens do FFmpeg, erros e informações de debug.
-
-Exemplo:
+Durante o debug, adicione `--keep` à linha `Exec` do arquivo `.desktop`. Isso mantém a janela aberta e permite visualizar mensagens do FFmpeg e erros:
 
 ```ini
 Exec=konsole --keep -e ~/.local/share/kio/servicemenus/encode-audio-alac-parallel.sh %F
 ```
 
-Depois da depuração, a opção pode ser removida para voltar ao comportamento normal.
+Remova a opção depois dos testes para retornar ao comportamento normal.
 
 ### A codificação H.265 não usa a GPU
 
-Confirme se:
-
-- a GPU NVIDIA é compatível com NVENC;
-- os drivers estão instalados;
-- `nvidia-smi` reconhece a GPU;
-- o FFmpeg lista o encoder `hevc_nvenc`;
-- o script contém `-c:v hevc_nvenc`;
-- o arquivo `.desktop` chama o script correto.
-
-Durante um teste, acompanhe o uso da GPU com:
+Confirme:
 
 ```bash
-watch -n 1 nvidia-smi
+nvidia-smi
+ffmpeg -hide_banner -encoders | grep hevc_nvenc
 ```
 
-A opção `-hwaccel cuda` auxilia na decodificação acelerada, enquanto `-c:v hevc_nvenc` seleciona o encoder H.265 da NVIDIA. A presença de CUDA no sistema, por si só, não garante que o FFmpeg esteja usando a GPU.
+No comando FFmpeg, `-hwaccel cuda` acelera a decodificação e `-c:v hevc_nvenc` seleciona a codificação H.265 pela GPU. A presença de CUDA no sistema não garante que o encoder NVENC esteja disponível.
 
-### O processamento falha
+## Estrutura
 
-Execute o script diretamente pelo terminal para visualizar as mensagens de erro:
-
-```bash
-./nome-do-script.sh arquivo-de-teste
-```
-
-Use arquivos de teste antes de aplicar a função em grandes quantidades de material.
-
-## Estrutura do repositório
-
-```text
-.
-├── CHANGELOG.md
-├── DOCS/
-├── LICENSE
-├── README.md
-├── img/
-├── *.desktop
-└── *.sh
-```
-
-### Tipos de arquivo
-
-| Tipo | Finalidade |
-| --- | --- |
-| `.sh` | Implementa a lógica da função. |
-| `.desktop` | Adiciona a função ao menu de contexto do KDE Dolphin. |
-| `CHANGELOG.md` | Registra as alterações realizadas no projeto. |
-| `DOCS/` | Armazena documentação complementar. |
-| `img/` | Contém imagens utilizadas na documentação. |
-| `LICENSE` | Define os termos de distribuição e uso do projeto. |
-
-## Processamento paralelo
-
-As funções com `parallel` no nome podem processar mais de um arquivo ao mesmo tempo. Isso pode reduzir o tempo total de execução, mas também aumenta o consumo de CPU, memória, armazenamento e recursos da GPU.
-
-No caso dos scripts de vídeo com NVENC, executar muitos processos simultaneamente pode saturar o encoder da GPU, aumentar o uso de VRAM e reduzir o desempenho total. Ajuste a quantidade de processos de acordo com o hardware disponível.
+- `*.sh`: lógica dos recursos.
+- `*.desktop`: integração com o menu do Dolphin.
+- `DOCS/`: documentação complementar.
+- `img/`: imagens do projeto.
+- `CHANGELOG.md`: histórico de alterações.
+- `LICENSE`: licença do projeto.
 
 ## Contribuição
 
-Sugestões, correções e melhorias são bem-vindas.
+1. Faça um fork do projeto.
+2. Crie uma branch para sua alteração.
+3. Implemente e teste a mudança no KDE Dolphin.
+4. Atualize o README ou o `CHANGELOG.md`, quando necessário.
+5. Abra um pull request descrevendo a alteração.
 
-Para contribuir:
-
-1. faça um fork do projeto;
-2. crie uma branch para sua alteração;
-3. faça as modificações;
-4. teste a função no KDE Dolphin;
-5. abra um pull request descrevendo o que foi alterado.
-
-Ao adicionar uma nova função, inclua:
-
-- o script `.sh`;
-- o arquivo `.desktop` correspondente;
-- uma descrição no README;
-- uma entrada no `CHANGELOG.md`;
-- instruções adicionais em `DOCS/`, quando necessário.
+Ao adicionar um recurso, inclua o par `.sh` e `.desktop` correspondente.
 
 ## Licença
 
